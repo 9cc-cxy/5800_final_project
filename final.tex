@@ -1,0 +1,90 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+
+\title{Dynamic Programming for DNA Sequence Alignment}
+\author{Xinyu Cheng, Zhihao Wang, Xueni Tang, Jieni Tang}
+\date{August 2025}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\newpage
+
+\section{Introduction and Motivation (by Xinyu Cheng)}
+\subsection{Rationale Behind DNA Sequence Alignment}
+% Your content here
+
+\subsection{Why Dynamic Programming?}
+% Your content here
+
+\subsection{Project Structure Overview}
+% Describe layout of report and group contributions
+
+\section{Mathematical Foundations (by Zhihao Wang)}
+\subsection{Problem Definitions}
+% Define Global and Local Alignment formally
+
+\subsection{Dynamic Programming Principles}
+% Discuss optimal substructure and overlapping subproblems
+
+\subsection{Recurrence Relations}
+% Present recurrence relations for global and local alignment
+
+\subsection{Initialization and Traceback}
+% Add notes on matrix setup and traceback strategies
+
+\section{Implementation (by Xueni Tang)}
+\subsection{Global Alignment Algorithm}
+% Describe algorithm and code logic
+
+\subsection{Local Alignment Algorithm}
+% Describe algorithm and code logic
+
+\subsection{Traceback and Output}
+% Reconstructing alignments
+
+\section{Runtime Analysis and Empirical Results (by Jieni Tang)}
+\subsection{Theoretical Time and Space Complexity}
+% O(mn) analysis and any optimizations
+
+\subsection{Empirical Evaluation Setup}
+% Datasets and testing setup
+
+\subsection{Runtime Comparisons}
+% Include a table or chart comparing runtimes
+
+\section{Interpretation of Results and Practical Pitfalls (by Xinyu Cheng)}
+\subsection{Issues and Limitations}
+% Scoring ties, memory, ambiguous bases
+
+\subsection{Trade-offs in Design}
+% Accuracy vs performance
+
+\section{Future Extensions (by Xinyu Cheng)}
+% Ideas like affine gaps, banded alignment, GPU parallelism
+
+\section{Conclusion (by Zhihao Wang)}
+% Summarize what was learned and its broader implications
+
+\newpage
+\begin{thebibliography}{9}
+
+\bibitem{nw}
+Needleman, Saul B., and Christian D. Wunsch. "A general method applicable to the search for similarities in the amino acid sequence of two proteins." \textit{Journal of molecular biology} 48.3 (1970): 443-453.
+
+\bibitem{sw}
+Smith, Temple F., and Michael S. Waterman. "Identification of common molecular subsequences." \textit{Journal of molecular biology} 147.1 (1981): 195-197.
+
+% Add more references here as needed
+
+\end{thebibliography}
+
+\end{document}
